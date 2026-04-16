@@ -3,43 +3,133 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Pinterest verification -->
   <meta name="p:domain_verify" content="8fd81055935cd7b3f3099c1908bac1ca"/>
-  <title>RossignolStudio – Printable Wall Art</title>
+
+  <title>Rossignol Studio</title>
+
   <style>
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body { font-family: Georgia, serif; background: #faf8f5; color: #3a3228; }
-    header { background: #3a3228; color: #f5ede0; text-align: center; padding: 50px 20px 40px; }
-    header h1 { font-size: 2.4rem; letter-spacing: 4px; font-weight: normal; margin-bottom: 10px; }
-    header p { font-size: 1rem; color: #c9b99a; letter-spacing: 2px; text-transform: uppercase; }
-    .about { max-width: 700px; margin: 50px auto; padding: 0 20px; text-align: center; }
-    .about h2 { font-size: 1.4rem; font-weight: normal; margin-bottom: 16px; color: #6b4f3a; }
-    .about p { font-size: 1rem; line-height: 1.9; color: #5a4a3a; }
-    .categories { max-width: 900px; margin: 40px auto; padding: 0 20px; display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
-    .cat { background: #fff; border: 1px solid #e8ddd0; border-radius: 4px; padding: 24px; text-align: center; }
-    .cat h3 { font-size: 1rem; font-weight: normal; letter-spacing: 1px; margin-bottom: 8px; color: #6b4f3a; }
-    .cat p { font-size: 0.85rem; color: #8a7a6a; line-height: 1.6; }
-    .cta { text-align: center; padding: 50px 20px; }
-    .cta a { display: inline-block; padding: 14px 36px; background: #6b4f3a; color: #f5ede0; text-decoration: none; letter-spacing: 2px; font-size: 0.9rem; text-transform: uppercase; border-radius: 2px; }
-    .cta a:hover { background: #3a3228; }
-    footer { text-align: center; padding: 30px; font-size: 0.8rem; color: #a89880; border-top: 1px solid #e8ddd0; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      background-color: #f7f5f2;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 700px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      font-family: Georgia, serif;
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      font-family: Georgia, serif;
+      margin-top: 50px;
+    }
+
+    .tagline {
+      font-size: 18px;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 28px;
+      background-color: #000;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 16px;
+      transition: 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: #444;
+    }
+
+    .section {
+      margin-top: 50px;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    li {
+      margin: 8px 0;
+    }
+
+    .footer {
+      margin-top: 60px;
+      font-size: 14px;
+      color: #777;
+    }
   </style>
 </head>
-<body>
-  <header>
-    <h1>Rossignol Studio</h1>
-    <p>Art prints that bring walls to life</p>
-  </header>
 
-  <div class="about">
-    <h2>Welcome</h2>
-    <p>I'm Ágnes, a professional graphic designer and photographer with 25 years of experience. My shop offers beautiful downloadable art prints — from soft vintage florals and romantic landscapes to moody abstract art and whimsical fantasy scenes. Every piece is an instant digital download, ready to print and frame.</p>
+<body>
+
+  <div class="container">
+
+    <!-- HERO -->
+    <h1>Rossignol Studio</h1>
+    <p class="tagline">Art prints that bring walls to life</p>
+    <p>Timeless, cozy and elegant printable art for your home.</p>
+
+    <a href="https://rossignolstudio.etsy.com" class="cta-button" target="_blank">
+      Shop on Etsy
+    </a>
+
+    <!-- ABOUT -->
+    <div class="section">
+      <h2>About the Studio</h2>
+      <p>
+        I’m Ágnes, a graphic designer and photographer with over 25 years of experience.
+        Rossignol Studio was created to bring warmth, beauty and character into everyday spaces.
+      </p>
+      <p>
+        Each piece is inspired by cozy interiors, antique details and timeless design —
+        created to evoke calm, joy and a sense of home.
+      </p>
+    </div>
+
+    <!-- COLLECTION -->
+    <div class="section">
+      <h2>What you’ll find</h2>
+      <ul>
+        <li>Floral & vintage-inspired prints</li>
+        <li>Modern abstract art</li>
+        <li>Elegant line drawings</li>
+        <li>Nursery & seasonal artwork</li>
+      </ul>
+      <p>Instant download – print it your way.</p>
+    </div>
+
+    <!-- CTA AGAIN -->
+    <div class="section">
+      <a href="https://rossignolstudio.etsy.com" class="cta-button" target="_blank">
+        Visit my shop
+      </a>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer">
+      <p>© Rossignol Studio</p>
+    </div>
+
   </div>
 
-  <div class="categories">
-    <div class="cat">
-      <h3>Vintage & Romantic</h3>
-      <p>Watercolor landscapes, cottagecore scenes, and timeless floral prints.</p>
-    </div>
-    <div class="cat">
-      <h3>Abstract & Modern</h3>
-      <p>Bold, moody, colorful abstract art for contemporar
+</body>
+</html>
